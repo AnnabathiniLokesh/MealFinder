@@ -386,3 +386,41 @@ span {
     gap: 10px;
     line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .hero-section img {
+        height: 400px;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .search-bar input {
+        width: 180px;
+        padding: 8px 12px;
+    }
+
+    .search-bar button {
+        width: 32px;
+        height: 32px;
+        margin-left: -32px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box img {
+        max-width: 100%;
+        padding: 10px 0;
+    }
+}
