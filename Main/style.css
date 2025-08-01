@@ -191,3 +191,47 @@ span {
 .cardstyle:hover img {
     transform: scale(0.8);
 }
+
+.veg {
+    margin: 30px;
+    border: 5px solid orange;
+    font-size: 1.2em;
+    padding: 20px;
+    background-color: whitesmoke;
+    opacity: 0.9;
+}
+
+.veg1 {
+    color: orange;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.card-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+
+.card {
+    position: relative;
+    width: 220px;
+    height: 260px;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+    margin: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+}
