@@ -424,3 +424,72 @@ span {
         padding: 10px 0;
     }
 }
+
+
+@media (max-width: 600px) {
+    .hero-section img {
+        height: 300px;
+    }
+
+    .hero-content {
+        padding: 0 10px;
+    }
+
+    .hero-title {
+        font-size: 1.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .cards, .card-2 {
+        padding: 10px;
+    }
+
+    .cardstyle, .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box img {
+        width: 100%;
+    }
+
+    .box-content {
+        padding: 10px;
+    }
+
+    .names {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .names p {
+        width: 100%;
+    }
+    
+    .spoon {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .spoon span {
+        width: 100%;
+    }
+
+    .measure, .inst {
+        margin: 10px 0;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .veg {
+        margin: 10px;
+        padding: 15px;
+    }
+}
