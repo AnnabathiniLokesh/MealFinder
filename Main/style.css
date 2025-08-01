@@ -89,3 +89,105 @@ a {
     font-weight: 500;
     opacity: 0.9;
 }
+
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    width: 250px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.search-bar button {
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-logo {
+    color: white;
+}
+
+.search-bar button:hover {
+    background-color: white;
+}
+
+.search-bar button:hover .search-logo {
+    color: orange;
+}
+
+
+/*
+* Category & Meal Sections
+*/
+.items, .items1 {
+    padding: 30px 20px 10px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
+}
+
+.a1 {
+    background-color: whitesmoke;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    padding: 3%;
+}
+
+.cardstyle {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.cardstyle img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.cardstyle .cardname {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    border: solid orange;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.cardstyle:hover img {
+    transform: scale(0.8);
+}
