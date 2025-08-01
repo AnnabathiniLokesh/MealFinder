@@ -235,3 +235,109 @@ span {
     text-decoration: none;
     color: black;
 }
+
+
+.sec-pg3 {
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+}
+
+.home-logo1 {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start; /* aligns content to the top */
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap; /* prevent wrapping side-by-side */
+}
+
+.box img {
+    flex: 1;
+    max-width: 45%;
+    height: auto;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.box-content {
+    flex: 1;
+    padding: 10px;
+}
+
+
+.box-content span {
+    text-decoration: none;
+    color: orange;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.box-content hr {
+    border: 1px solid orange;
+    margin: 10px 0;
+}
+
+.veget span {
+    color: black;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tags strong {
+    margin-right: 10px;
+}
+
+.tags div {
+    margin: 5px;
+    padding: 4px 8px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.names {
+    width: 85%;
+    padding: 2%;
+    background-color: rgb(253, 105, 20);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7%;
+    justify-content: center;
+}
+
+.names h3 {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.names p {
+    width: 33%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.names button {
+    margin-right: 5px;
+    border: 1px solid white;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    width: 24px;
+    height: 24px;
+    font-size: 1em;
+}
