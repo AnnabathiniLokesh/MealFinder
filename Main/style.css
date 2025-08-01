@@ -1,3 +1,6 @@
+/* ------------------------------------------------------
+   ✅ GLOBAL STYLES
+------------------------------------------------------ */
 body {
     margin: 0;
     padding: 0;
@@ -9,9 +12,9 @@ a {
     color: inherit;
 }
 
-/*
-* Navbar
-*/
+/* ------------------------------------------------------
+   ✅ NAVBAR STYLES
+------------------------------------------------------ */
 .navbar {
     position: fixed;
     top: 0;
@@ -49,9 +52,9 @@ a {
     cursor: pointer;
 }
 
-/*
-* Hero Section
-*/
+/* ------------------------------------------------------
+   ✅ HERO SECTION
+------------------------------------------------------ */
 .hero-section {
     position: relative;
     text-align: center;
@@ -77,6 +80,7 @@ a {
     box-sizing: border-box;
 }
 
+/* Hero Titles */
 .hero-title {
     font-size: 2rem;
     font-weight: bold;
@@ -90,7 +94,9 @@ a {
     opacity: 0.9;
 }
 
-
+/* ------------------------------------------------------
+   🔍 SEARCH BAR
+------------------------------------------------------ */
 .search-bar {
     display: flex;
     justify-content: center;
@@ -122,10 +128,12 @@ a {
     transition: background-color 0.3s;
 }
 
+/* Search icon */
 .search-logo {
     color: white;
 }
 
+/* Hover effect for search button */
 .search-bar button:hover {
     background-color: white;
 }
@@ -134,26 +142,30 @@ a {
     color: orange;
 }
 
-
-/*
-* Category & Meal Sections
-*/
+/* ------------------------------------------------------
+   ✅ CATEGORY & MEAL SECTIONS
+------------------------------------------------------ */
 .items, .items1 {
     padding: 30px 20px 10px;
     font-weight: bolder;
     font-size: 1.5em;
 }
 
+/* Underline style for section titles */
 span {
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-thickness: 4px;
 }
 
+/* Background for category section */
 .a1 {
     background-color: whitesmoke;
 }
 
+/* ------------------------------------------------------
+   📦 CARD GRID STYLING
+------------------------------------------------------ */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -161,6 +173,7 @@ span {
     padding: 3%;
 }
 
+/* Individual card styles */
 .cardstyle {
     position: relative;
     width: 250px;
@@ -178,6 +191,7 @@ span {
     object-fit: contain;     
     padding: 5px;
 }
+
 .cardstyle .cardname {
     position: absolute;
     top: 10px;
@@ -188,10 +202,14 @@ span {
     border-radius: 5px;
 }
 
+/* Hover animation on card images */
 .cardstyle:hover img {
     transform: scale(0.8);
 }
 
+/* ------------------------------------------------------
+   🥗 VEGETARIAN SECTION
+------------------------------------------------------ */
 .veg {
     margin: 30px;
     border: 5px solid orange;
@@ -208,6 +226,9 @@ span {
     margin-bottom: 10px;
 }
 
+/* ------------------------------------------------------
+   🍛 MEAL CARD STYLING
+------------------------------------------------------ */
 .card-2 {
     display: flex;
     flex-wrap: wrap;
@@ -236,7 +257,9 @@ span {
     color: black;
 }
 
-
+/* ------------------------------------------------------
+   📄 DETAIL PAGE & CONTENT BOXES
+------------------------------------------------------ */
 .sec-pg3 {
     margin: 30px;
     padding: 30px;
@@ -250,12 +273,13 @@ span {
     font-weight: bolder;
 }
 
+/* Flexbox layout for recipe detail page */
 .box {
     display: flex;
-    align-items: flex-start; /* aligns content to the top */
+    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: nowrap; /* prevent wrapping side-by-side */
+    flex-wrap: nowrap;
 }
 
 .box img {
@@ -270,7 +294,6 @@ span {
     flex: 1;
     padding: 10px;
 }
-
 
 .box-content span {
     text-decoration: none;
@@ -288,6 +311,9 @@ span {
     color: black;
 }
 
+/* ------------------------------------------------------
+   🏷️ TAGS & LABELS
+------------------------------------------------------ */
 .tags {
     display: flex;
     align-items: center;
@@ -307,6 +333,9 @@ span {
     font-size: 0.9em;
 }
 
+/* ------------------------------------------------------
+   📜 INGREDIENT NAMES LIST
+------------------------------------------------------ */
 .names {
     width: 85%;
     padding: 2%;
@@ -342,6 +371,9 @@ span {
     font-size: 1em;
 }
 
+/* ------------------------------------------------------
+   🥄 MEASUREMENTS & INSTRUCTIONS
+------------------------------------------------------ */
 .measure {
     margin-left: 4%;
     margin-top: 20px;
@@ -387,6 +419,11 @@ span {
     line-height: 1.5;
 }
 
+/* ------------------------------------------------------
+   📱 RESPONSIVE DESIGN
+------------------------------------------------------ */
+
+/* ✅ Tablets and below (<= 768px) */
 @media (max-width: 768px) {
     .navbar {
         padding: 0 10px;
@@ -425,7 +462,7 @@ span {
     }
 }
 
-
+/* ✅ Small screens (<= 600px) */
 @media (max-width: 600px) {
     .hero-section img {
         height: 300px;
@@ -494,6 +531,7 @@ span {
     }
 }
 
+/* ✅ Extra small screens (<= 480px) */
 @media (max-width: 480px) {
     .brand-title {
         font-size: 18px;
