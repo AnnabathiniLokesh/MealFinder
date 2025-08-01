@@ -493,3 +493,17 @@ span {
         padding: 15px;
     }
 }
+
+@media (max-width: 480px) {
+    .brand-title {
+        font-size: 18px;
+    }
+
+    .navbar-toggle {
+        font-size: 20px;
+    }
+    
+    .search-bar input {
+        width: 150px;
+    }
+}
