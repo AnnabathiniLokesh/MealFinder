@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- 🔗 Linking external CSS file -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- 🔗 Font Awesome icons (CDN link for icons like menu, search etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+          integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+    <!-- ================= HEADER SECTION ================= -->
 <header>
   <div class="navbar">
+    <!-- 🔹 Left side: Logo and Brand Name -->
     <div class="navbar-left">
       <img src="../Assets/home.png" alt="MealFinder Logo">
       <div class="brand-title">MealFinder</div>
     </div>
+
+    <!-- 🔹 Right side: Toggle menu icon (hamburger) -->
     <div class="navbar-toggle">
       <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
     </div>
   </div>
 </header>
 
+    <!-- ================= HERO SECTION ================= -->
 <section>
     <div class="hero-section">
-        <!-- Background Image -->
+
+        <!-- 🌄 Background Image -->
         <img src="../Assets/home-sec.jpg" alt="Main Page Background">
 
-        <!-- Hero Content -->
+        <!-- 🔸 Hero Content Wrapper -->
         <div class="hero-content">
             
-            <!-- ✅ Search bar wrapper -->
+            <!-- 🔍 Search bar -->
             <div class="search-bar">
                 <input type="text" placeholder="Search recipes here ..." aria-label="Search recipes">
                 <button aria-label="Search">
@@ -36,15 +49,22 @@
                 </button>
             </div>
 
-            <!-- Title & Subtitle -->
+            <!-- 🏷 Title & Subtitle -->
             <div class="hero-title">What are your favorite cuisines</div>
             <div class="hero-subtitle">PERSONALIZE YOUR EXPERIENCE</div>
         </div>
     </div>
 </section>
+
+    <!-- ================= CATEGORIES SECTION ================= -->
 <section class="a1">
+  <!-- 📌 Section Heading -->
   <div class="items"><span>C A T E </span>G O R I E S</div>
+
+  <!-- 🗂 Category Cards Container -->
   <div class="cards">
+
+    <!-- 🥩 Individual Category Cards -->
     <a href="#" class="cardstyle">
         <div class="cardname">Beef</div>
         <img src="../Assets/beef.png" alt="Beef">
@@ -100,6 +120,7 @@
         <img src="../Assets/vegan.png" alt="Vegan">
     </a>
 
+    <!-- ✅ Linked to Veg.html -->
     <a href="./Veg.html" class="cardstyle">
         <div class="cardname">Vegetarian</div>
         <img src="../Assets/vegetarian.png" alt="Vegetarian">
@@ -114,8 +135,8 @@
         <div class="cardname">Goat</div>
         <img src="../Assets/goat.png" alt="Goat">
     </a>
-</div>
-
+  </div>
 </section>
+
 </body>
 </html>
