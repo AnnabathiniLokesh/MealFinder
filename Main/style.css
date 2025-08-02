@@ -86,6 +86,7 @@ a {
     font-weight: bold;
     letter-spacing: 1px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
 .hero-subtitle {
@@ -95,21 +96,22 @@ a {
 }
 
 /* ------------------------------------------------------
-   🔍 SEARCH BAR
+   🔍 SEARCH BAR (UPDATED)
 ------------------------------------------------------ */
 .search-bar {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    gap: 10px; /* space between input and icon */
 }
 
 .search-bar input {
     width: 250px;
-    height: 20px;
+    height: 40px;
     border: 2px solid white;
     border-radius: 30px;
-    padding: 10px 15px;
+    padding: 0 15px;
     font-size: 1em;
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -120,7 +122,6 @@ a {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin-left: -40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,12 +129,10 @@ a {
     transition: background-color 0.3s;
 }
 
-/* Search icon */
 .search-logo {
     color: white;
 }
 
-/* Hover effect for search button */
 .search-bar button:hover {
     background-color: white;
 }
@@ -200,6 +199,7 @@ span {
     border: solid orange;
     background-color: orange;
     border-radius: 5px;
+    padding: 2px 8px;
 }
 
 /* Hover animation on card Assets */
@@ -273,7 +273,6 @@ span {
     font-weight: bolder;
 }
 
-/* Flexbox layout for recipe detail page */
 .box {
     display: flex;
     align-items: flex-start;
@@ -422,8 +421,6 @@ span {
 /* ------------------------------------------------------
    📱 RESPONSIVE DESIGN
 ------------------------------------------------------ */
-
-/* ✅ Tablets and below (<= 768px) */
 @media (max-width: 768px) {
     .navbar {
         padding: 0 10px;
@@ -449,7 +446,6 @@ span {
     .search-bar button {
         width: 32px;
         height: 32px;
-        margin-left: -32px;
     }
 
     .box {
@@ -462,7 +458,6 @@ span {
     }
 }
 
-/* ✅ Small screens (<= 600px) */
 @media (max-width: 600px) {
     .hero-section img {
         height: 300px;
@@ -509,7 +504,7 @@ span {
     .names p {
         width: 100%;
     }
-    
+
     .spoon {
         width: 100%;
         margin-left: 0;
@@ -531,7 +526,6 @@ span {
     }
 }
 
-/* ✅ Extra small screens (<= 480px) */
 @media (max-width: 480px) {
     .brand-title {
         font-size: 18px;
@@ -540,7 +534,7 @@ span {
     .navbar-toggle {
         font-size: 20px;
     }
-    
+
     .search-bar input {
         width: 150px;
     }
