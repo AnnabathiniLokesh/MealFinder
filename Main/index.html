@@ -1,140 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MealFinder</title>
 
-    <!-- 🔗 Linking external CSS file -->
-    <link rel="stylesheet" href="./style.css">
+  <!-- 🔗 External CSS -->
+  <link rel="stylesheet" href="./style.css">
 
-    <!-- 🔗 Font Awesome icons (CDN link for icons like menu, search etc.) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
-          integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 🔗 Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <!-- ================= HEADER SECTION ================= -->
+
+<!-- ================= HEADER ================= -->
 <header>
   <div class="navbar">
-    <!-- 🔹 Left side: Logo and Brand Name -->
     <div class="navbar-left">
       <img src="../Assets/home.png" alt="MealFinder Logo">
       <div class="brand-title">MealFinder</div>
     </div>
-
-    <!-- 🔹 Right side: Toggle menu icon (hamburger) -->
     <div class="navbar-toggle">
       <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
     </div>
   </div>
 </header>
 
-    <!-- ================= HERO SECTION ================= -->
+<!-- ================= HERO SECTION ================= -->
 <section>
-    <div class="hero-section">
+  <div class="hero-section">
+    <img src="../Assets/home-sec.jpg" alt="Main Page Background">
 
-        <!-- 🌄 Background Image -->
-        <img src="../Assets/home-sec.jpg" alt="Main Page Background">
+    <div class="hero-content">
+      <!-- 🔍 Search bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search recipes here ..." aria-label="Search recipes">
+        <button aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass fa-xl search-logo"></i>
+        </button>
+      </div>
 
-        <!-- 🔸 Hero Content Wrapper -->
-        <div class="hero-content">
-            
-            <!-- 🔍 Search bar -->
-            <div class="search-bar">
-                <input type="text" placeholder="Search recipes here ..." aria-label="Search recipes">
-                <button aria-label="Search">
-                    <i class="fa-solid fa-magnifying-glass fa-xl search-logo"></i>
-                </button>
-            </div>
-
-            <!-- 🏷 Title & Subtitle -->
-            <div class="hero-title">What are your favorite cuisines</div>
-            <div class="hero-subtitle">PERSONALIZE YOUR EXPERIENCE</div>
-        </div>
+      <div class="hero-title">What are your favorite cuisines</div>
+      <div class="hero-subtitle">PERSONALIZE YOUR EXPERIENCE</div>
     </div>
+  </div>
 </section>
 
-    <!-- ================= CATEGORIES SECTION ================= -->
+<!-- ================= CATEGORIES ================= -->
 <section class="a1">
-  <!-- 📌 Section Heading -->
   <div class="items"><span>C A T E </span>G O R I E S</div>
 
-  <!-- 🗂 Category Cards Container -->
   <div class="cards">
-
-    <!-- 🥩 Individual Category Cards -->
-    <a href="#" class="cardstyle">
-        <div class="cardname">Beef</div>
-        <img src="../Assets/beef.png" alt="Beef">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Chicken</div>
-        <img src="../Assets/chicken.png" alt="Chicken">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Dessert</div>
-        <img src="../Assets/dessert.png" alt="Dessert">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Lamb</div>
-        <img src="../Assets/lamb.png" alt="Lamb">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Miscellaneous</div>
-        <img src="../Assets/miscellaneous.png" alt="Miscellaneous">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Pasta</div>
-        <img src="../Assets/pasta.png" alt="Pasta">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Pork</div>
-        <img src="../Assets/pork.png" alt="Pork">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Seafood</div>
-        <img src="../Assets/seafood.png" alt="Seafood">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Side</div>
-        <img src="../Assets/side.png" alt="Side">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Starter</div>
-        <img src="../Assets/starter.png" alt="Starter">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Vegan</div>
-        <img src="../Assets/vegan.png" alt="Vegan">
-    </a>
-
-    <!-- ✅ Linked to Veg.html -->
-    <a href="./Veg.html" class="cardstyle">
-        <div class="cardname">Vegetarian</div>
-        <img src="../Assets/vegetarian.png" alt="Vegetarian">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Breakfast</div>
-        <img src="../Assets/breakfast.png" alt="Breakfast">
-    </a>
-
-    <a href="#" class="cardstyle">
-        <div class="cardname">Goat</div>
-        <img src="../Assets/goat.png" alt="Goat">
-    </a>
+    <!-- Repeatable category card -->
+    <a href="#" class="cardstyle"><div class="cardname">Beef</div><img src="../Assets/beef.png" alt="Beef"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Chicken</div><img src="../Assets/chicken.png" alt="Chicken"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Dessert</div><img src="../Assets/dessert.png" alt="Dessert"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Lamb</div><img src="../Assets/lamb.png" alt="Lamb"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Miscellaneous</div><img src="../Assets/miscellaneous.png" alt="Miscellaneous"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Pasta</div><img src="../Assets/pasta.png" alt="Pasta"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Pork</div><img src="../Assets/pork.png" alt="Pork"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Seafood</div><img src="../Assets/seafood.png" alt="Seafood"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Side</div><img src="../Assets/side.png" alt="Side"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Starter</div><img src="../Assets/starter.png" alt="Starter"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Vegan</div><img src="../Assets/vegan.png" alt="Vegan"></a>
+    <a href="./Veg.html" class="cardstyle"><div class="cardname">Vegetarian</div><img src="../Assets/vegetarian.png" alt="Vegetarian"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Breakfast</div><img src="../Assets/breakfast.png" alt="Breakfast"></a>
+    <a href="#" class="cardstyle"><div class="cardname">Goat</div><img src="../Assets/goat.png" alt="Goat"></a>
   </div>
 </section>
 
